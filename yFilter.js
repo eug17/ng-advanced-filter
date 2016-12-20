@@ -7,10 +7,9 @@
             // a - innitial short array
             // b - full list
             var array;
+            array = a;
             if(b){
                 array = b;
-            }else{
-                array = a;
             }
             var newQuery = query && query.trim().split(/\s+/);
             if(angular.isDefined(array) && array.length > 0){
