@@ -16,7 +16,7 @@
                 var keys = Object.keys(array[0]);
             }
             
-            if(!newQuery || newQuery.length < 2) 
+            if(!newQuery || !newQuery.length) 
                 return a;
             if(query.length < 3)
                 return a;
